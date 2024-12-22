@@ -1,0 +1,19 @@
+1. Acordo
+2. pego escova, pasta e toalha
+3. vou ao banheiro 
+4. armazeno escova, pasta e toalha
+5. tomo banho
+6. escovo os dentes
+7. saio do banheiro
+8. vou na cozinha
+	if (À merenda){
+		1. merendo
+		2. sigo para o trabalho
+		return 
+	} else {
+		1. Vou a panificadora
+		2. Compro pães		3. voltou para casa
+		4. merendo
+		5. sigo para o trabalho
+		return
+	}
