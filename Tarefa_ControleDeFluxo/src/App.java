@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class App {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Notas notasUser = new Notas();
         App app = new App();
@@ -28,7 +28,7 @@ public class App {
             System.out.println("********************");
             System.out.println("Gostaria de saber sua média novamente?");
             singIn = s.next();
-        };
+        }
 
         System.out.println("Até a próxima!");
 
@@ -37,7 +37,7 @@ public class App {
     public String getMensage(Double media) {
         if(media >= 7) {
             return "Uau! Parabéns você está aprovado";
-        } else if (media >= 5 && media < 7) {
+        } else if (media >= 5) {
             return "Ihh! Você pode melhorar isso hein. Ficou de recuperação";
         } else if (media < 5) {
             return "Aff! Você está reprovado... Sinto muito :(";
